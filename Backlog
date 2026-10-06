@@ -5,3 +5,37 @@ Légende
 •	P3 = priorité faible 
 •	Points = estimation relative de l'effort : 1, 2, 3, 5, 8 
 
+
+US-01 Afficher la liste des tâche
+Récit utilisateur
+En tant qu'utilisateur, je veux afficher la liste de mes tâches afin de connaître leur état et leur priorité.
+Critères d'acceptation
+Chaque tâche affiche : son identifiant, son titre, sa priorité, son échéance, son statut
+Priorité : P0
+Estimation : 3 points
+
+
+US-02 Marquer une tâche comme terminée
+Récit utilisateur
+En tant qu'utilisateur, je veux marquer une tâche comme terminée afin de suivre les tâches que j'ai déjà réalisées.
+Critères d'acceptation
+•	L'utilisateur sélectionne une tâche avec son identifiant. 
+•	Le statut passe de À faire à Terminée. 
+•	Les autres informations de la tâche restent inchangées. 
+•	Si l'identifiant n'existe pas, un message d'erreur est affiché. 
+•	Si la tâche est déjà terminée, l'application le signale sans effectuer de modification inutile. 
+Priorité : P0
+Estimation : 3 points
+
+
+US-03 Attribuer une échéance
+Récit utilisateur
+En tant qu'utilisateur, je veux attribuer une échéance à une tâche afin de savoir avant quelle date elle doit être réalisée.
+Critères d'acceptation
+•	L'utilisateur sélectionne une tâche existante. 
+•	Il peut saisir une date au format AAAA-MM-JJ. 
+•	Une date au format invalide par exemple, est refusée. 
+•	Les dates passées sont acceptées. 
+•	Une tâche inexistante produit un message d'erreur. 
+Priorité : P1
+Estimation : 3 points
