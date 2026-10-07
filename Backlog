@@ -39,3 +39,79 @@ Critères d'acceptation
 •	Une tâche inexistante produit un message d'erreur. 
 Priorité : P1
 Estimation : 3 points
+
+
+
+US-04 Charger les tâches au démarrage 
+
+Récit utilisateur 
+
+En tant qu'utilisateur, je veux que mes tâches soient automatiquement chargées au démarrage de l'application afin de retrouver les tâches que j'ai précédemment enregistrées. 
+
+Critères d'acceptation 
+
+•    Lorsque l'application démarre, elle vérifie si le fichier contenant les tâches existe. 
+
+•    Si le fichier existe et contient des données valides, les tâches sont automatiquement chargées. 
+
+•    Les tâches chargées conservent leurs informations, notamment leur identifiant, leur titre, leur priorité, leur échéance et leur statut. 
+
+•    Si aucun fichier de tâches n'existe, l'application démarre avec une liste de tâches vide. 
+
+•    L'utilisateur n'a pas besoin de charger manuellement ses tâches. 
+
+Priorité : P0 
+Estimation : 5 points 
+
+ 
+
+US-05 Gérer les fichiers invalides ou illisibles 
+
+Récit utilisateur 
+
+En tant qu'utilisateur, je veux être informé lorsqu'un fichier de tâches est invalide ou illisible afin de comprendre pourquoi l'application ne peut pas charger mes tâches. 
+
+Critères d'acceptation 
+
+•    Au démarrage, l'application détecte si le fichier de tâches est invalide ou illisible. 
+
+•    Un message d'erreur clair est affiché à l'utilisateur. 
+
+•    L'application s'arrête proprement lorsqu'un fichier invalide ou illisible est détecté. 
+
+•    Le fichier invalide ou illisible n'est pas écrasé. 
+
+•    L'application ne remplace pas automatiquement le contenu du fichier par une liste vide. 
+
+•    L'utilisateur peut identifier que le problème vient du fichier de données. 
+
+Priorité : P0 
+Estimation : 5 points 
+
+ 
+
+US-06 Afficher le menu principal 
+
+Récit utilisateur 
+
+En tant qu'utilisateur, je veux voir un menu principal afin de pouvoir choisir facilement l'opération que je souhaite effectuer. 
+
+Critères d'acceptation 
+
+•    Le menu présente clairement les fonctionnalités disponibles. 
+
+•    L'utilisateur peut choisir une option à partir du menu. 
+
+•    Une option permettant de quitter l'application est disponible. 
+
+•    Un choix invalide produit un message d'erreur clair. 
+
+•    Le programme ne se ferme pas brutalement après une mauvaise saisie. 
+
+•    Après une opération, l'utilisateur peut revenir au menu principal. 
+
+•    Le menu permet d'accéder aux principales fonctionnalités de gestion des tâches. 
+
+Priorité : P0 
+Estimation : 3 points
+
