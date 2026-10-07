@@ -139,3 +139,44 @@ Critères d'acceptation 
 •	Si le titre est invalide ou ne contient que des espaces, aucune tâche n’est ajoutée. 
 Priorité : P0  
 Estimation : 5 points
+
+
+
+US-9 Modifier la priorite d'une tache
+Récit utilisateur 
+En tant qu'utilisateur, je veux modifier la priorite d'une tache afin d'adapter son niveau d'importance.
+criteres d'acceptation
+- L'utilisation selectionne une tache existante a l'aide de son identifiant
+- il choisit une nouvelle priorite parmi Basse, Normal et elevee
+- une valeur invalide est refusee et laisse la priorite actuelle inchangee
+- un identifiant inconnu est signale
+Priorité : P1
+Estimation : 3 point
+
+
+US-10 Modifier une echance
+Récit utilisateur 
+
+En tant qu'utilisateur, je veux modifier l'echeance d'une tache afin de mettre a jour sa date de realisation.
+criteres d'acceptation
+- l'utilisateur selectionne une tache existante a l'aide de son idetntifiant
+- Il peut remplacer l'echance actuelle par une nouvelle date 
+- une date dans un format incorrect ou impossible est refusee.
+- si la nouvelle date est invalide, l'echance actuelle reste inchangee
+- si L'identite n'existe pas, un message d'erreur est affiche
+Priorité : P1
+Estimation : 3 point
+
+
+US-11 Retirer une echance
+Récit utilisateur 
+En tant qu'utilisateur, je veux Retirer l'echeance d'une tache afin qu'elle n'ai plus de date limite.
+criteres d'acceptation
+- l'utilisateur selectionne une tache existante a l'aide de son idetntifiant
+- L'utilisateur peut retirer l'echance existante
+- Apres le retrait, la tache est conservee sans echance.
+- Les autres information de la tache restent inchangees.
+- Si l'identifiant n'existe pas, un message d'erreur est affiche.
+
+Priorité : P1
+Estimation : 2 point
