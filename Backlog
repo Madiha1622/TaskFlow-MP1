@@ -115,3 +115,27 @@ Critères d'acceptation
 Priorité : P0 
 Estimation : 3 points
 
+
+US-07 Charger les tâches au démarrage  
+Récit utilisateur  
+En tant qu'utilisateur, je veux que mes tâches soient automatiquement chargées au démarrage de l'application afin de retrouver les tâches que j'ai précédemment enregistrées.  
+Critères d'acceptation  
+•	Lorsque l'application démarre, elle vérifie si le fichier contenant les tâches existe.  
+•	Si le fichier existe et contient des données valides, les tâches sont automatiquement chargées.  
+•	Les tâches chargées conservent leurs informations, notamment leur identifiant, leur titre, leur priorité, leur échéance et leur statut.  
+•	Si aucun fichier de tâches n'existe, l'application démarre avec une liste de tâches vide.  
+•	L'utilisateur n'a pas besoin de charger manuellement ses tâches.  
+Priorité : P0  
+Estimation : 5 points  
+
+
+US-08 Ajouter une tâche 
+Récit utilisateur  
+En tant qu’utilisateur, je veux ajouter une tâche afin de garder une trace de ce que je dois faire. 
+Critères d'acceptation  
+•	Le titre ne peut pas être vide. 
+•	Une tâche reçoit automatiquement un identifiant. 
+•	Si aucune priorité n’est choisie, la priorité est « Normale ». 
+•	Si le titre est invalide ou ne contient que des espaces, aucune tâche n’est ajoutée. 
+Priorité : P0  
+Estimation : 5 points
